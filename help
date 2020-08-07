@@ -1,0 +1,36 @@
+Posty Bot v1 Help
+For other questions message @xeou on instagram or Xeon#2761 on Discord
+
+
+WHAT THE TOOL DOES
+
+Posty is a tool that will auto post for you every 30 mins. You can provide it a list of meme pages to pull memes off of to repost. Its pretty straight forward.
+If the meme page you provide is private then the account auto reposting MUST be following the private page for the bot to work correctly. 
+
+LOGGING IN
+
+This part is a little cmplicated and will require multiple steps. 
+1. On your PC or Mac or whatever go to "https://instagram.com" on google chrome
+2. Right click and select the Inspect option at the bottom.
+3. Select the Network tab on the top | Pic https://imgur.com/a/oehR3c1
+4. Now Select the Preserver Logs box | Pic https://imgur.com/a/MqJ1aMp
+5. Now login to your Instagram account on the left side. Once its logged in go back on the right side where the Inspect page is and look for /ajax request | https://imgur.com/a/fPox1rH
+6. Scroll all the way down the page to the form data section | Pic https://imgur.com/a/F6ZdkH8
+7. Copy the enc_password data parameter. Pic https://imgur.com/a/xyNbeBg, it looks like this 
+#PWD_INSTAGRAM_BROWSER:10:1596815683:AVFQANwnwu0rkA3v6mDAoYp1gwOKBDrVtUKU04uNYi2dTbUOfU9q77jn3/oqDLK2l2v0NzxjCCkHCB2QcErNtI0QJq25kdZznnTjzJ6KvsiBE7UmQL1haf4+1QYNrrp/YsXpN/4PY0UhSw==
+
+8. Select option 2 on the tool to login. The username is normal but for the encoded password paste the copied value you got from the Inspect page. 
+If it logged in then you did it correctly, otherwise make sure 2 factor is disabled and the enc_password was coppied correctly.
+
+MONITORED PAGES
+
+Option 3 will open a notepad with all the monitored memepages. You can add or remove ones you want there. If its a private page the logged in account needs to be following it.
+There should only be one page per line. Make sure to save when finished.
+
+CAPTIONS
+
+Option 4 will open a notepad with all the captions to use when posting. One will randomly be chosen per post. Make sure to save when all are added.
+
+STARTING THE BOT
+
+Once you have an account logged in, monitored pages set, and captions set you can use option 5 to start the bot. From then it will post every 30 mins 
