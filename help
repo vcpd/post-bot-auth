@@ -31,6 +31,12 @@ CAPTIONS
 
 Option 4 will open a notepad with all the captions to use when posting. One will randomly be chosen per post. Make sure to save when all are added.
 
+BLACKLISTED CAPTIONS
+
+Option 5 will open a notepad with all blacklisted captions to look out for. This is to try to reduce how mnay ads the bot will repost from larger pages. For example 
+lots of meme pages like posting near nude girls with the caption "her @ is" then her username or whatever. As a blacklisted caption just put her @ is and the bot will
+skip the repost.
+
 STARTING THE BOT
 
-Once you have an account logged in, monitored pages set, and captions set you can use option 5 to start the bot. From then it will post every 30 mins 
+Once you have an account logged in, monitored pages set, and captions set you can use option 6 to start the bot. From then it will post every 30 mins 
